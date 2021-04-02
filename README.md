@@ -34,5 +34,7 @@ Flat array:
 105477468185126_105495888183284: Drugi subcoment => 105477468185126_105477574851782
 ````
 
+## Start project from scratch
 
-
+        docker-compose up -d
+        docker-compose exec cli composer install
