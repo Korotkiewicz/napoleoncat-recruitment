@@ -14,7 +14,7 @@
         "ext-json": "*",
         "ext-zmq": "*",
         "symfony/console": "^5.2",
-        "symfony/dotenv": "^5.2",
+        "symfony/dotenv": "^5.2"
     },
     "require-dev": {
         "codeception/codeception": "^4.1",

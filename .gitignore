@@ -1,2 +1,5 @@
 vendor
 .env
+workspace.code-workspace
+composer.lock
+.env.local

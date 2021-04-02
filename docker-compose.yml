@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  cli:
+    image: napoleoncatrecruitment
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - .:/var/www/html
+    tty: true
