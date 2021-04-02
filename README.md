@@ -38,3 +38,7 @@ Flat array:
 
         docker-compose up -d
         docker-compose exec cli composer install
+
+## Execute recruitement task through docker
+
+        docker-compose exec cli php app app:feed 105477064851833 -p
