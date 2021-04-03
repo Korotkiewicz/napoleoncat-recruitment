@@ -42,3 +42,13 @@ Flat array:
 ## Execute recruitement task through docker
 
         docker-compose exec cli php app app:feed 105477064851833 -p
+
+## Testing
+
+1. First create build
+
+        docker-compose exec cli php vendor/bin/codecept build
+
+2. Then run tests
+
+        docker-compose exec cli php vendor/bin/codecept run
