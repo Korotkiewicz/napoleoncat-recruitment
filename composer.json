@@ -15,7 +15,10 @@
         "ext-zmq": "*",
         "symfony/console": "^5.2",
         "symfony/dotenv": "^5.2",
-        "facebook/graph-sdk": "^5.1"
+        "facebook/graph-sdk": "^5.1",
+        "symfony/dependency-injection": "^5.2",
+        "symfony/config": "^5.2",
+        "symfony/framework-bundle": "^5.2"
     },
     "require-dev": {
         "codeception/codeception": "^4.1",
@@ -23,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "NapoleonCat\\": "src/"
+            "NapoleonCat\\": "src/",
         }
     },
     "autoload-dev": {
