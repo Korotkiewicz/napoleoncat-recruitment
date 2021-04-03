@@ -58,7 +58,7 @@ class FeedScanner extends Command
             $collection = $this->pageScanner->scan($pageSocialId, $pageAT);
 
             if ($printMode) {
-                $this->print($collection);
+                $this->print($collection, $output);
             }
 
             $this->send($collection);

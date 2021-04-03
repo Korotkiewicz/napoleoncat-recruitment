@@ -3,3 +3,4 @@ vendor
 workspace.code-workspace
 composer.lock
 .env.local
+var/cache/*
